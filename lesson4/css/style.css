@@ -1,0 +1,12 @@
+
+h5 {
+    color:red;
+}
+div {background-color: rgb(255, 123, 0);}
+.header {
+   background-color: fuchsia; color: green; 
+}
+.about {background-color: green;}
+#cats-types {
+    font-size: 30px;
+}
