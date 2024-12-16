@@ -1,0 +1,39 @@
+.calc{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background: lightskyblue;
+    color: black;
+}
+.menu{
+  border: 0;
+  border-radius: 5px;
+  background: lightgrey;
+  color: black;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+.btn2{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background: lightskyblue;
+    color: black;
+}
+.radio{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.radio2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.check{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+td{
+    padding: 2px 2px; 
+}
