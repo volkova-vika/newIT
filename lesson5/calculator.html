@@ -8,10 +8,10 @@
 </head>
 <body>
     <form>
-        <table border="1">
+        <table border="1" class="table">
             <tr style="background-color: blue;">
                 <td colspan="8" style="color: white; font-size: 20px;">Calculator</td>
-                <td style="color: white; text-align: center;">-</td>
+                <td style="color: white; text-align: center;">_</td>
                 <td style="color: white; text-align: center;">&nabla;</td>
                 <td style="color: white; text-align: center;">x</td>
             </tr>
@@ -27,7 +27,7 @@
                 <td colspan="5">
              </td>
                 <td colspan="6">
-                    <input type="text" placeholder="0." maxlength="10" required style="width: 95%;" >
+                    <input type="text" placeholder="0." maxlength="10" required style="width: 100%;" >
                 </td>
             </tr>
             <tr>
@@ -53,11 +53,11 @@
             <tr>
                 <td colspan="2">
                     <label>
-                        <input type="checkbox" name="IT" value="css" class="check"/>
+                        <input type="checkbox" name="Inv" value="inv" class="check"/>
                         Inv
                     </label>
                     <label>
-                        <input type="checkbox" name="IT" value="css" class="check"/>
+                        <input type="checkbox" name="Hyp" value="hyp" class="check"/>
                         Hyp
                     </label>
                 </td>
@@ -65,18 +65,18 @@
                 <td><input type="button" value="  " class="calc"></td>
                 <td colspan="2"></td>
                 <th colspan="5">
-                    <input type="button" value="Backspace" class="btn2">
-                    <input type="button" value="CE" class="btn2">
-                    <input type="button" value="C" class="btn2">
+                    <input type="button" value="Backspace" style="color: red;" class="btn2">
+                    <input type="button" value="CE" style="color: red;" class="btn2">
+                    <input type="button" value="C" style="color: red;" class="btn2">
                 </th>
             </tr>
             
             <tr>
-                <td><input type="button" value="Sta" class="calc"></td>
-                <td><input type="button" value="FE" class="calc"></td>
+                <td><input type="button" value="Sta" style="color: blue;" class="calc"></td>
+                <td><input type="button" value="FE" style="color: blueviolet;" class="calc"></td>
                 <td><input type="button" value="[" class="calc"></td>
                 <td><input type="button" value="]" class="calc"></td>
-                <td><input type="button" value="MC" class="calc"></td>
+                <td><input type="button" value="MC" style="color: red;" class="calc"></td>
                 <td><input type="button" value="7" class="calc"></td>
                 <td><input type="button" value="8" class="calc"></td>
                 <td><input type="button" value="9" class="calc"></td>
@@ -86,10 +86,10 @@
             </tr>
             <tr>
                 <td><input type="button" value="Ave" class="calc"></td>
-                <td><input type="button" value="dm" class="calc"></td>
-                <td><input type="button" value="Exp" class="calc"></td>
-                <td><input type="button" value="In" class="calc"></td>
-                <td><input type="button" value="MR" class="calc"></td>
+                <td><input type="button" value="dm" class="calc" style="color: blueviolet;"></td>
+                <td><input type="button" value="Exp" style="color: blueviolet;" class="calc"></td>
+                <td><input type="button" value="In" style="color: blueviolet;" class="calc"></td>
+                <td><input type="button" value="MR" style="color: red;" class="calc"></td>
                 <td><input type="button" value="4" class="calc"></td>
                 <td><input type="button" value="5" class="calc"></td>
                 <td><input type="button" value="6" class="calc"></td>
@@ -97,12 +97,12 @@
                 <td><input type="button" value="0r" class="calc"></td>
                 <td><input type="button" value="Xor" class="calc"></td>
             </tr>
-<tr>
-    <td><input type="button" value="Sum" class="calc"></td>
-                <td><input type="button" value="in" class="calc"></td>
+            <tr>
+                <td><input type="button" value="Sum" class="calc"></td>
+                <td><input type="button" value="in" style="color: blueviolet;" class="calc"></td>
                 <td><input type="button" value="xy" class="calc"></td>
                 <td><input type="button" value="log" class="calc"></td>
-                <td><input type="button" value="MS" class="calc"></td>
+                <td><input type="button" value="MS" style="color: red;" class="calc"></td>
                 <td><input type="button" value="1" class="calc"></td>
                 <td><input type="button" value="2" class="calc"></td>
                 <td><input type="button" value="3" class="calc"></td>
@@ -112,10 +112,10 @@
 </tr>
 <tr>
     <td><input type="button" value="*" class="calc"></td>
-                <td><input type="button" value="col" class="calc"></td>
+                <td><input type="button" value="col" style="color: blueviolet;" class="calc"></td>
                 <td><input type="button" value="xJ" class="calc"></td>
                 <td><input type="button" value="n" class="calc"></td>
-                <td><input type="button" value="M+" class="calc"></td>
+                <td><input type="button" value="M+" style="color: red;" class="calc"></td>
                 <td><input type="button" value="0" class="calc"></td>
                 <td><input type="button" value="+/-" class="calc"></td>
                 <td><input type="button" value="_" class="calc"></td>
@@ -125,7 +125,7 @@
 </tr>
 <tr>
     <td><input type="button" value="Oxt" class="calc"></td>
-    <td><input type="button" value="tan" class="calc"></td>
+    <td><input type="button" value="tan" style="color: blueviolet;" class="calc"></td>
     <td><input type="button" value="x2" class="calc"></td>
     <td><input type="button" value="1/x" class="calc"></td>
     <td><input type="button" value="pi" class="calc"></td>
