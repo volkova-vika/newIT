@@ -1,0 +1,68 @@
+.wrapper {
+    display: flex;
+    background-color: aqua;
+    height: 150px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: flex-start;
+    align-items: center; */
+    /* align-items: stretch; */
+    align-items: baseline;
+}
+.red {
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-items: stretch; */
+    align-self: stretch;
+    /* align-self: flex-start; */
+    /* align-items: baseline; */
+    background-color: red;
+    
+}
+.yellow {
+    background-color: yellow;
+    min-width: 30%;
+    min-width: 50px;
+    
+}
+.purple {
+    background-color: purple;
+    height: 50px;
+    
+}
+.blue {
+    background-color: blue;
+
+    
+}
+.green {
+    background-color: green;
+    height: 80px;
+}
+.w100 {
+width: 100%;
+}
+
+/* .wrapper > div {
+    width: 100px;
+}
+
+.blue, 
+.yellow {
+    color: aqua;
+}
+
+#p1 + #p2 {
+    color: blueviolet;
+}
+
+.green + .red {
+    color: blueviolet;
+}
+
+.green p {
+font-size: 30px;
+} */
