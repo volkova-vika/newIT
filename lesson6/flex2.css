@@ -14,11 +14,13 @@ align-self: stretch;
 width: 1000px;
 height: 100px;
 background-color: yellow;
+border-left: 15px solid white;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .article {
 align-self: stretch;
 background-color: yellow;
+border: 8px solid white;
 width: 60%;
 }
 .nav {
@@ -38,5 +40,6 @@ width: 1000px;
 height: 100px;
 align-self: stretch;
 background-color: yellow;
+border-left: 15px solid white;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
