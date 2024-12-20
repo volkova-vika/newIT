@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-color: yellow;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+width: 100%;
+height: 15%;
+border: 5px solid white;
+tex
+}
+.article {
+height: 65%;
+width: 55%;
+border: 5px solid white;
+}
+.nav {
+height: 65%;
+width: 20%;
+border: 5px solid white;
+}
+.ads {
+height: 65%;
+width: 20%;
+border: 5px solid white;
+}
+.footer {
+height: 15%;
+width: 100%;
+border: 5px solid white;
+}
