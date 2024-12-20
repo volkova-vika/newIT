@@ -1,0 +1,14 @@
+.d1 {
+	/* height: 50px; */
+	background-color: aqua;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 25px;
+    padding: 5px 10px;
+}
+
+.d2 {
+	height: 50px;
+	background-color: lime;
+	margin: 20px 0;
+}

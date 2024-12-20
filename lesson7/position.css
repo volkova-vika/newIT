@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper   {
+    height: 500px;
+    background-color: violet;
+}
+.relative  {
+    width: 90px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    /* bottom: 20px; */
+    left: 50px;
+    border: 5px outsets black;
+    border-radius: 50px;
+    /* border: 1px hidden; */
+    /* border: none; */
+}
+
+.absolute{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    top: -10px;
+}
+.a0{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+.fixed{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.sticky{
+height: 100px;
+position: sticky;
+top: 0;
+background-color: black;
+}
