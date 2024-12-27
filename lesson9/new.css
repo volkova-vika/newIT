@@ -1,0 +1,59 @@
+#p::after {
+content: "псевдоконтент after";
+}
+#p::before {
+content: "псевдоконтент before";
+color: red;
+}
+.links:link {
+color: green;
+}
+.links:visited {
+    color: orange;
+}
+.links:active {
+    color: purple;
+}
+.hover-div:hover {
+background-color: yellow;
+width: 200px;
+}
+.hover-div >span:hover {
+    color: blue;
+    /* cursor: not-allowed; */
+    /* cursor: zoom-out; */
+    cursor: crosshair;
+    background-color: aqua;
+    }
+.empty:empty {
+    height: 20px;
+    background-color: fuchsia;
+}
+.child:first-child {
+background-color: chocolate;
+}
+.child:last-child {
+    background-color: rgb(44, 187, 142);
+}
+.child:nth-child(even) {
+color: aquamarine;
+}
+
+.child:nth-child(odd) {
+    color: rgb(120, 70, 107);
+}
+.child:nth-child(n2+1) {
+    background-color: black;
+}
+@media screen and (max-width: 768px) {
+    a {
+        display: none;
+    }
+    .media {
+        width: 50%;
+        background-color: powderblue;
+        color: blueviolet;
+        padding: 20px;
+        text-align: center;
+    }
+}
