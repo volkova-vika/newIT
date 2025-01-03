@@ -1,0 +1,25 @@
+$redColor: red;
+$mailColor: blue;
+
+@mixin text {
+    font-size: 20px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.koala {
+    background-color: $redColor;
+    height: 500px;
+    width: 500px;
+
+    span {
+    color: $mailColor;
+    font-size: 20px;
+    }
+    &-main {
+        background-color: rgb(252, 45, 211);
+        height: 200px;
+        width: 200px;  
+        @include text;
+    }
+}

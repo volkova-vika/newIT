@@ -1,0 +1,17 @@
+.koala {
+  background-color: red;
+  height: 500px;
+  width: 500px;
+}
+.koala span {
+  color: blue;
+  font-size: 20px;
+}
+.koala-main {
+  background-color: #fc2dd3;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
