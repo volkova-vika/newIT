@@ -39,9 +39,7 @@ if (age > 18) {
 } else {
     console.log('< 18');
 }
->=
-<=
-===
+
 
 
 

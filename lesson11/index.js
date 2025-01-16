@@ -1,6 +1,6 @@
 // // confirm("Please enter");
-// const nickName = prompt("Enter your name","vika");
-// console.log(`hello, ${nickName}`);
+const nickName = prompt("Enter your name","vika");
+console.log(`hello, ${nickName}`);
 
 const str = 'SOME random StriNG';
 // const str2 = "next string";
