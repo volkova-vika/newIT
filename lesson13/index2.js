@@ -31,19 +31,47 @@
 //  }
 //  console.log("how many elements in array",countEl);
 
-const phone = {
-    brand: "iPhone",
-    model: 16,
-    type: "Pro",
-    color: "black",
-    comment: "Made in Silicon Valley",
-    techSet: {
-        capacity: 128,
-        display: "6,7",
-        chip: "A18 chip"
-    }
-};
-console.log("phone", phone);
+// const phone = {
+//     brand: "iPhone",
+//     model: 16,
+//     type: "Pro",
+//     color: "black",
+//     comment: "Made in Silicon Valley",
+//     techSet: {
+//         capacity: 128,
+//         display: "6,7",
+//         chip: "A18 chip"
+//     }
+// };
+// console.log("phone", phone);
+
+// const keys = Object.keys(phone)
+// console.log("number of keys", keys);
+
+const person = [
+    {name: "Pete",
+     age: 35,},
+        {name: "Jack",
+        age: 12,},
+            {name: "Kate",
+            age: 65,},
+                {name: "Nate",
+                age: 93,},
+                    {name: "Paul",
+                    age: 17,},
+                        {name: "Sam",
+                        age: 26,},
+                            {name: "Sara",
+                            age: 32,},
+];
+
+console.log(person);
+
+const isAdult = Object.create(person)
+console.log(person.name);
+
+
+
 
 
  
