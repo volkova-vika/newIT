@@ -48,30 +48,34 @@
 // const keys = Object.keys(phone)
 // console.log("number of keys", keys);
 
-const person = [
-    {name: "Pete",
-     age: 35,},
-        {name: "Jack",
-        age: 12,},
-            {name: "Kate",
-            age: 65,},
-                {name: "Nate",
-                age: 93,},
-                    {name: "Paul",
-                    age: 17,},
-                        {name: "Sam",
-                        age: 26,},
-                            {name: "Sara",
-                            age: 32,},
-];
+// const person = [
+//     {name: "Pete", age: 35,},
+//     {name: "Jack", age: 12,},
+//     {name: "Kate", age: 65,},
+//     {name: "Nate", age: 93,},
+//     {name: "Paul", age: 17,},
+//     {name: "Sam", age: 26,},
+//     {name: "Sara", age: 32,},
+//     {name: "Scott", age: 61,},
+//     ,
+// ];
 
-console.log(person);
+// const person2 = [];
 
-const isAdult = Object.create(person)
-console.log(person.name);
+// for (let i = 0; i < person.length; i++) {
+//     if (person[i].age > 21) {
+//         person2.push(person[i]);
+//     }
+// }
+// console.log(person2);
 
+const arr = [1,3,5,8,22,68,24,77,12,90];
 
-
+for (let i = 0; i < 10; i++) {
+    const random = Math.floor(Math.random() * 101);
+    arr.push(random);
+}
+console.log(arr);
 
 
  
