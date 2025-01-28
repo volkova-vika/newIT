@@ -69,13 +69,13 @@
 // }
 // console.log(person2);
 
-const arr = [1,3,5,8,22,68,24,77,12,90];
+// const arr = [1,3,5,8,22,68,24,77,12,90];
 
-for (let i = 0; i < 10; i++) {
-    const random = Math.floor(Math.random() * 101);
-    arr.push(random);
-}
-console.log(arr);
+// for (let i = 0; i < 10; i++) {
+//     const random = Math.floor(Math.random() * 101);
+//     arr.push(random);
+// }
+// console.log(arr);
 
 
  
