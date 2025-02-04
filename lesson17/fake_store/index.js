@@ -1,0 +1,1 @@
+const divItem = document.querySelector('.items');

@@ -1,0 +1,15 @@
+.items {
+display: flex;
+
+}
+
+.items {
+    border: 1px solid black !important;
+    width: 250px;
+    height: 400px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
