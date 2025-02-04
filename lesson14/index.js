@@ -83,11 +83,24 @@
 // function strUp(str) {
 //     let arr = str.split('');
 
-//     for (let i=0; i < arr.length; i++) {
+//     for (let i=0; i <  arr.length; i++) {
 
 //     }
 // }
 // strUp(str)
+
+
+let str = 'qwerty';
+
+function strUp(str) {
+    let arr = str.split('');
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].toUpperCase(); 
+    }
+    return arr.join(''); 
+}
+
+console.log(strUp(str));
 
 // const pple = [
 //     {name: 'John', age: 20},
