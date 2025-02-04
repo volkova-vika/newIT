@@ -42,6 +42,27 @@ if (age > 18) {
 
 
 
+const userName = "Nickwnwfln";
+
+switch (userName) {
+    case "John": 
+    console.log("Welcome John");
+    break;
+    case "Jack": 
+    console.log("Welcome Jack");
+    break;
+    case "Nick": 
+    console.log("Welcome Nick");
+    break;
+    case "Mike": 
+    console.log("Welcome Mike");
+    break;
+
+    default:
+        console.log("Unknown user");
+        break;
+}
+
 
 
 
