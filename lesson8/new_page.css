@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+}
+.header {
+    background-color: blue;
+    width: 100%;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.search {
+    background-color: rgb(52, 58, 162);
+    width: 300px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+    left: 150px;
+    border: 0;
+    border-radius: 30px;
+}
+.menu{
+    width: 230px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid grey;
+    position: relative;
+    top: 70px;
+    padding-top: 10px;
+}
+.icons {
+    width: 230px;
+    height: 140px;
+    background-color: white;
+    border: 2px solid yellow;
+    position: absolute;
+    top: 600px;
+}
+.photo {
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    border: 2px solid red;
+    position: absolute;
+    left: 260px;
+    top: 70px;
+}
+.info {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid green;
+    position: absolute;
+    left: 560px;
+    top: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.friends {
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    border: 2px solid violet;
+    position: absolute;
+    left: 260px;
+    top: 420px;
+}
+.library {
+    width: 810px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid brown;
+    position: absolute;
+    padding-top: 10px;
+    left: 560px;
+    top: 500px;
+}
+.icon {
+    width: 30px;
+    height: 35px;
+}
+.text1 {
+    width: 150px;
+    height: 35px;
+    padding-left: 15px;
+}
+.photopic {
+margin-left: 35px;
+margin-top: 15px;
+}
+.edit {  
+margin-left: 10px;
+margin-top: 20px;
+background-color: rgb(223, 179, 97);
+border: 0;
+border-radius: 2%;
+width: 250px;
+height: 30px;
+}
+.left  {
+    width: 250px;
+    height: 30px;
+}
+.right {
+    width: 200px;
+    height: 30px;
+}
+.numbers {
+    width: 150px;
+    height: 10px;
+    font: size 20px;
+}
+.yellow {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
