@@ -1,28 +1,29 @@
 const path = require('path');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './scr/index.html',
-    output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.[contenthash].js'
-    },
-    // module: {
-    //     rules: [
-    //         {
-    //             test: /\.js$/,
-    //             exclude: /node_modules/,
-    //             use: {
-    //                 loader: 'babel-loader',
-    //                 options: {
-    //                     presets: ['@babel/preset-env']
-    //                 }
-    //             }
-    //         }
-    //     ]
-    // },
-    // devServer: {
-    //     contentBase: './dist',
-    //     port: 3000,
-    //     hot: true
-    // }
-}
+	entry: './src/index.html',
+	output: {
+		filename: 'bundle.[contenthash].js',
+		path: path.resolve(__dirname, 'build'),
+	},
+	plugins: [
+		new HTMLWebpackPlugin({
+			filename: 'index.html',
+			template: './src/index.html',
+		}),
+	],
+	module: {
+		rules: [
+			{
+				test: /\.html$/,
+				use: ['html-loader'],
+			},
+			{
+				test: /\.scss$/,
+				use: ['style-loader', 'scss-loader'],
+			},
+		],
+	},
+};
+

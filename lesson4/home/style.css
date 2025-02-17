@@ -1,0 +1,46 @@
+.wrapper {
+
+}
+
+table {
+background: transparent;
+table-layout: fixed;
+width: 700px;
+border-collapse: separate;
+border-spacing: 10px 10px;
+border: 2px solid grey;
+border-radius: 10px;
+}
+
+th, td { 
+text-align: left;
+padding: 10px 10px;
+}
+h4 {
+    margin-top: 0%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+    color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
